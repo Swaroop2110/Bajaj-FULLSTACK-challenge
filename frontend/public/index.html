@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HierarchyAPI</title>
+  <link rel="stylesheet" href="../src/css/style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero-card">
+      <div>
+        <p class="overline">HierarchyAPI</p>
+        <h1>Hierarchical Node Relationship Processor</h1>
+        <p class="lead">Submit parent-child edges and receive validated trees, cycle detection, duplicate handling, and summary insights.</p>
+      </div>
+    </section>
+
+    <section class="panel-grid">
+      <article class="input-card">
+        <h2>Input Data</h2>
+        <small>Enter one relationship per line in the format <code>A->B</code>.</small>
+        <textarea id="edgeInput" rows="8" placeholder="A->B\nA->C\nB->D"></textarea>
+        <div class="actions-row">
+          <button id="submitButton" class="primary-btn">Process Hierarchy</button>
+          <div id="loadingSpinner" class="spinner hidden"></div>
+        </div>
+        <p id="errorMessage" class="error-text"></p>
+      </article>
+
+      <article class="result-card">
+        <h2>Results</h2>
+        <div id="summaryContainer" class="summary-grid"></div>
+        <div id="hierarchiesContainer"></div>
+        <div id="invalidContainer"></div>
+        <div id="duplicatesContainer"></div>
+      </article>
+    </section>
+  </main>
+
+  <script type="module" src="../src/js/app.js"></script>
+</body>
+</html>
