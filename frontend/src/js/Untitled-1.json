@@ -1,0 +1,9 @@
+{
+  "user_id":"swaroopgupta_21102005",
+  "email_id":"sg6360@srmist.edu.in",
+  "college_roll_number":"RA2311003011066",
+  "hierarchies":[{"root":"A","tree":{"A":{"B":{"D":{}},"C":{}}},"depth":3}],
+  "invalid_entries":[],
+  "duplicate_edges":[],
+  "summary":{"total_trees":1,"total_cycles":0,"largest_tree_root":"A"}
+}
