@@ -56,9 +56,9 @@ Open `frontend/public/index.html` in a browser or deploy the frontend to Vercel 
 
 ```json
 {
-  "user_id": "yourname_ddmmyyyy",
-  "email_id": "yourcollege@email.com",
-  "college_roll_number": "YOUR_ROLL",
+  "user_id": "swaroopgupta_21102005",
+  "email_id": "sg6360@srmist.edu.in",
+  "college_roll_number": "RA2311003011066",
   "hierarchies": [
     {
       "root": "A",
